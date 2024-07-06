@@ -19,3 +19,6 @@ def about(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+def dropdown(request):
+    return render(request, 'dropdown.html')
